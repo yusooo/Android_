@@ -1,0 +1,1 @@
+AndroidStudio에서 프로젝트 생성 시 기본적으로 app 모듈 생성
