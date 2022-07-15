@@ -51,5 +51,9 @@ TextView myTextView=findViewById(R.id.myText);
         />
             
 // clickable 속성 : TextView나 ImageView 등에 클릭 이벤트를 발생시킴
-        
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Clickable Text"
+    android:clickable="true"/>
     
