@@ -57,3 +57,20 @@ TextView myTextView=findViewById(R.id.myText);
     android:text="Clickable Text"
     android:clickable="true"/>
     
+// visibility 속성 : 뷰의 출력 여부를 지정
+<Button
+    android:id="@+id/btn_wibile_target"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="hello world"
+    android:visibility="gone"/>    // gone = 크기 확보 X, invisible = 크기 확보 & 보이지 X
+  
+@Override
+public void onClick(View v){
+        
+   if(v==trueBtn){
+        targetBtn.setVisibility(View.VISIBLE);
+    }else if(v==falseBtn){
+        targetBtn.setVisibility(View.INVISIBLE);
+    }
+}   // setVisibility() : 뷰의 표시 상태 조정 함수
